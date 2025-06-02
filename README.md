@@ -29,3 +29,5 @@ Một ứng dụng web đơn giản viết bằng **Python + Streamlit**, giúp 
 ```bash
 python3 -m venv venv
 source venv/bin/activate     # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run ap_auth_check.py
